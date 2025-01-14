@@ -118,7 +118,9 @@ Ensure the following are installed:
 - **Response**: Voting results.
 
 ---
-
+## Video Demo
+![Recording 2025-01-15 051001](https://github.com/user-attachments/assets/2c639cc8-50f3-43ac-8345-95a689810836)
+---
 ## File Structure
 ```
 project-root
@@ -153,7 +155,10 @@ project-root
 We welcome contributions! Please fork the repository and submit a pull request.
 
 ---
+## License
+This project is licensed under the MIT License. See `LICENSE` for details.
 
+---
 ## Contact
 For questions or feedback, please reach out to **adhithyasraj7@gmail.com**
 
