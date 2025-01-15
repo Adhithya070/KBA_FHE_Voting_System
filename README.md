@@ -14,7 +14,7 @@ A secure and privacy-preserving voting system implemented using Fully Homomorphi
 ---
 
 ## Technologies Used
-- 🖥️ **Python 3.12.6**: Programming language.: Programming language.
+- 🖥️ **Python 3.9 or above**: Programming language.: Programming language.
 - 🌐 **Flask**: Backend framework for creating APIs.
 - 🧬 **TenSEAL**: Library for implementing Fully Homomorphic Encryption.
 - 🔒 **bcrypt**: For secure password hashing.
@@ -36,7 +36,7 @@ A secure and privacy-preserving voting system implemented using Fully Homomorphi
 
 ### Prerequisites
 Ensure the following are installed:
-- 🖥️ Python 3.12.6
+- 🖥️ Python 3.9 or above
 - 🌐 Flask (`pip install flask`)
 - 🔒 bcrypt (`pip install bcrypt`)
 - 🛠️ PyJWT (`pip install pyjwt`)
@@ -143,11 +143,11 @@ project-root
 ---
 
 ## Version Compatibility
-- 🐍 **Python**: 3.12.6
+- 🐍 **Python**: 3.9 or above
 - 🌐 **Flask**: 2.0+
 - 🔒 **bcrypt**: 3.2.2
 - 🛠️ **PyJWT**: 2.6.0
-- 🧬 **TenSEAL**: 0.4+
+- 🧬 **TenSEAL**: 0.3+
 
 ---
 
