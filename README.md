@@ -53,20 +53,26 @@ Ensure the following are installed:
    ```bash
    pip install -r requirements.txt
    ```
-
-3. **Create Admin Credentials**:
+   
+3. **JWT Secret Key**:
+   Add your own JWT Sceret key in the flak_app file to enable JWT functions
+   ```flask_app.py
+   JWT_SECRET = "<JWT_Secret_Key>"
+   ```
+   
+4. **Create Admin Credentials**:
    Run the following command to create the `admin.pkl` file:
    ```bash
    python create_admin.py
    ```
-
-4. **Run the Application**:
+   
+5. **Run the Application**:
    ```bash
    python flask_app.py
    ```
    The server will run on `http://127.0.0.1:5000` by default.
 
-5. **Testing**:
+6. **Testing**:
    Use Postman or any REST client to test the API endpoints. Refer to the API documentation below.
 
 ---
