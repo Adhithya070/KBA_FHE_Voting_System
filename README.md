@@ -55,7 +55,7 @@ Ensure the following are installed:
    ```
    
 3. **JWT Secret Key**:
-   Add your own JWT Sceret key in the flak_app file to enable JWT functions
+   Add your own JWT Sceret key in the `flak_app.py` file to enable JWT functions
    ```flask_app.py
    JWT_SECRET = "<JWT_Secret_Key>"
    ```
