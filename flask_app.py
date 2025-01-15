@@ -8,7 +8,7 @@ from encryption import setup_fhe, encrypt_vote, decrypt_vote, add_encrypted_vote
 app = Flask(__name__)
 
 # Secret key for JWT
-JWT_SECRET = "cd33ae4d226e5db1deadb7253ce18f2093b71fac206fdba26fd6e3238ca5b0f8"
+JWT_SECRET = "<YOUR_JWT_SECRET_KEY>"
 JWT_ALGORITHM = "HS256"
 
 # File paths
